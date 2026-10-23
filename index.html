@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adygabze Online audio</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d2b2f; --muted: #5b6e5f; --line: #d9e1dc; --code: #f2f5f3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141a1c; --fg: #e6ece8; --muted: #9fb3a5; --line: #2b3538; --code: #1d2528; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  p.lead { color: var(--muted); margin: 0 0 24px; }
+  .file { border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .file h2 { font-size: 1rem; margin: 0 0 8px; }
+  audio { width: 100%; margin: 8px 0; }
+  code { background: var(--code); padding: 2px 6px; border-radius: 4px; word-break: break-all; font-size: .9rem; }
+  ul { padding-left: 20px; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Adygabze Online audio</h1>
+  <p class="lead">Audio files for the Adygabze Online exercises. Each file has a direct link that LearningApps games and the Android app can play.</p>
+
+  <section class="file">
+    <h2>Test file: three tones</h2>
+    <audio controls preload="none" src="test/test-tones-6s.mp3"></audio>
+    <div>Link: <code>https://abedshowgan.github.io/adygabze-online-audio/test/test-tones-6s.mp3</code></div>
+    <ul>
+      <li>0:00–0:02 low tone</li>
+      <li>0:02–0:04 middle tone</li>
+      <li>0:04–0:06 high tone</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
